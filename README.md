@@ -70,4 +70,4 @@ Un grafo che rappresenta una rete di città:
   - `Firenze → Roma` (150 km)
   - `Roma → Napoli` (120 km)
   - `Napoli → Milano` (500 km)
-```
+
