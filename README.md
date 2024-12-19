@@ -21,14 +21,10 @@ Il grafo puó essere relativo a diversi contesti: rete tra cittá, rete tra nume
    - Lo studente deve implementare il grafo direttamente nel main, utilizzando i metodi della classe `Grafo`.
    - Inserire i nodi e gli archi ideati seguendo la struttura del proprio grafo.
 
----
-
 ### **Visualizzazione del Grafo**
 
 1. **Visualizzazione dei nodi**:
    - Stampare il grafo a schermo.
-
----
 
 ### **Ricerca e Manipolazione**
 
@@ -39,8 +35,6 @@ Il grafo puó essere relativo a diversi contesti: rete tra cittá, rete tra nume
 2. **Manipolazione**:
    - Rimuovere un nodo e tutti i suoi archi associati.
    - Rimuovere un arco specifico (specificando sorgente e destinazione).
-
----
 
 ### **Modifica del Grafo**
 
@@ -56,6 +50,8 @@ Il grafo puó essere relativo a diversi contesti: rete tra cittá, rete tra nume
   **Connettività**:
    - Verificare nel main se due nodi specificati sono connessi.
    - Creare nella classe Grafo un nuovo metodo per trovare l'arco con peso minore tra gli archi uscenti di un nodo dato in input.
+
+---
 
 ### **Operazioni Aggiuntive per chi vuole aumentare il voto da 22 in su**
 
