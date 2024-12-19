@@ -7,12 +7,11 @@ Lo scopo dell'esercizio è lavorare con la classe `Grafo` per creare, manipolare
 ---
 
 ### **Ideazione e Creazione del Grafo**
-
+Il grafo puó essere relativo a diversi contesti: rete tra cittá, rete tra numeri, amicizie tra persone, connessione tra palazzi, ecc... Non ci devono essere grafi uguali tra studenti e soprattutto i temi dei grafi devono essere ben diversificati. Se ci saranno due grafi uguali tra studenti questi non saranno esonerati.
 1. **Ideazione del Grafo**:
-   - Ogni studente deve progettare un grafo personale, specificando:
-     - Il tipo di grafo (**orientato/non orientato** e **pesato/non pesato**).
-     - I nodi del grafo (es. città, nomi, numeri, ecc.).
-     - Gli archi tra i nodi, con eventuali pesi (se il grafo è pesato).
+   - Ogni studente deve progettare un grafo *personale* che deve essere *orientato* e *pesato*, specificando:
+     - I nodi del grafo (es. città, nomi, numeri, palazzi, persone, ecc...).
+     - Gli archi tra i nodi con pesi.
    - Il grafo deve avere almeno:
      - 5 nodi.
      - 6 archi.
@@ -27,9 +26,7 @@ Lo scopo dell'esercizio è lavorare con la classe `Grafo` per creare, manipolare
 ### **Visualizzazione del Grafo**
 
 1. **Visualizzazione dei nodi**:
-   - Stampare tutti i nodi presenti nel grafo.
-2. **Visualizzazione degli archi**:
-   - Stampare tutti gli archi del grafo, specificando la sorgente, la destinazione e il peso (se presente).
+   - Stampare il grafo a schermo.
 
 ---
 
@@ -45,35 +42,26 @@ Lo scopo dell'esercizio è lavorare con la classe `Grafo` per creare, manipolare
 
 ---
 
-### **Calcolo e Confronto**
-
-1. **Grado del Nodo**:
-   - Stampare il grado entrante e uscente di un nodo specificato (per grafi orientati).
-   - Stampare il grado totale per i grafi non orientati.
-2. **Connettività**:
-   - Verificare se due nodi specificati sono connessi.
-
----
-
 ### **Modifica del Grafo**
 
 1. **Aggiunta di nuovi nodi**:
    - Aggiungere un nuovo nodo al grafo.
 2. **Aggiunta di nuovi archi**:
-   - Aggiungere un nuovo arco, specificando sorgente, destinazione e peso (se applicabile).
+   - Aggiungere un nuovo arco, specificando sorgente, destinazione e peso.
 
 ---
 
 ### **Operazioni Aggiuntive per chi ha voto da 20 in su**
 
   **Connettività**:
-   - Implementare nella classe Grafo un metodo che dati due nodi in input verifica se sono connessi. Richimarlo poi nel main.
+   - Verificare nel main se due nodi specificati sono connessi.
+   - Creare nella classe Grafo un nuovo metodo per trovare l'arco con peso minore tra gli archi uscenti di un nodo dato in input.
 
 ### **Operazioni Aggiuntive per chi vuole aumentare il voto da 22 in su**
 
   **Percorso Minimo**:
-   - Implementare una funzione esterna al main per calcolare il percorso minimo tra due nodi utilizzando l'algoritmo di Dijkstra (per grafi pesati).
-
+   - Implementare una funzione esterna al main per la ricerca dei cammini minimi utilizzando l'algoritmo di Dijkstra.
+      ![image](https://github.com/user-attachments/assets/dc110a59-6858-4083-a6f6-736105a992db)
 ---
 
 ### **Esempio di Grafo Ideato**
